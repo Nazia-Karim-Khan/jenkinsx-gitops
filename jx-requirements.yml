@@ -9,7 +9,7 @@ spec:
     clusterName: kind
     devEnvApprovers:
     - todo
-    environmentGitOwner: todo
+    environmentGitOwner: Nazia-Karim-Khan
     gitKind: github
     gitName: github
     gitServer: https://github.com
@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "10.10.3.3.nip.io" 
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
