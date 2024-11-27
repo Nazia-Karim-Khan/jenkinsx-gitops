@@ -6,10 +6,10 @@ spec:
     schedule: ""
   cluster:
     chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
-    clusterName: k0s-cluster
     devEnvApprovers:
     - todo
     environmentGitOwner: Nazia-Karim-Khan
+    clusterName: k0s-cluster
     gitKind: github
     gitName: github
     gitServer: https://github.com
